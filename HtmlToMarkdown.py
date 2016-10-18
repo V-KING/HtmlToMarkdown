@@ -10,7 +10,7 @@ import os
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
-
+# 里面包含你要抓取的页面的所以链接
 page0 = urllib2.urlopen('http://192.168.1.222/t4.html').read()
 
 
